@@ -1,11 +1,10 @@
 # Importar las librerías necesarias para el proyecto.
 
-import json
 import requests
-import pandas as pd
 from pandas import json_normalize
 from datetime import datetime, timedelta
 from config import password, url_base
+
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
