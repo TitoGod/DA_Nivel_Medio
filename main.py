@@ -11,8 +11,8 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 # Lista de ciudades y coordenadas:
-cityList = ["London", "New York", "Cordoba", "Taipei", "Buenos Aires", "Mexico DF", "Dublin", "Tilfis", "Bogota", "Tokio"]
-coordList = ["lat=31&lon=64", "lat=40&lon=-73", "lat=-31&lon=-64", "lat=25&lon=64", "lat=-34&lon=-58", "lat=19&lon=-99", "lat=53&lon=6", "lat=41&lon=44", "lat=4&lon=74", "lat=35&lon=139"]
+cityList = ["London", "New York", "Cordoba", "Taipei", "Buenos Aires", "Mexico DF", "Dublin", "Tiflis", "Bogota", "Tokio"]
+coordList = ["lat=51.5085&lon=-0.1257", "lat=40.7143&lon=-74.006", "lat=-31.4135&lon=-64.1811", "lat=25.0478&lon=121.5319", "lat=-34.6132&lon=-58.3772", "lat=19.4285&lon=-99.1277", "lat=53.344&lon=-6.2672", "lat=41.6941&lon=44.8337", "lat=4.6097&lon=-74.0817", "lat=35.6895&lon=139.6917"]
 
 # Función para traer los datos:
 def get_weather_data(city, coords):
