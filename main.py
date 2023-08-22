@@ -11,7 +11,7 @@ coordList = ["lat=51.5085&lon=-0.1257", "lat=40.7143&lon=-74.006", "lat=-31.4135
 if __name__ == "__main__":
     # 1: Traer todos los datos de la API
     get_weatherdata(cityList, coordList)
-    time.sleep(2)
+    time.sleep(5)
 
     # 2: Listar las rutas de los archivos JSON para sacar los datos
     lista_de_rutas = listar_rutas('weather_data_')
